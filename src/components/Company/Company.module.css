@@ -1,0 +1,176 @@
+
+
+.container{
+    width: 89%;
+    margin: auto;
+    background: url('https://res.cloudinary.com/oyindacodes/image/upload/v1605096992/White_BG_n6rmgn.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 71px;
+    margin-top: -2px;
+    color: rgb(243, 122, 122);
+    padding: 7em 0;
+}
+
+.company{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.company img{
+    width: 450px;
+    z-index: 100;
+}
+
+.company .comapnyInfo{
+    width: 30%;
+}
+
+.comapnyInfo h1{
+    font-family: 'Sofia-Pro Bold';
+    font-size: 50px;
+}
+
+.comapnyInfo p{
+    font-family: 'Sofia-Pro regular';
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 1.8;
+}
+
+
+.cirles{
+    width: 89%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: -100px;
+
+}
+
+.cirles img{
+    width: 20px;
+    animation: circles 7s linear infinite;
+    z-index: 2;
+    transition: 3s;
+}
+
+.cirles img:hover{
+    width: 30px;
+}
+
+@keyframes circles{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.cirles img:nth-child(1){
+    animation-delay: 2s;
+    margin-left: -4em;
+    width: 14px;
+}
+
+
+.cirles img:nth-child(2){
+    animation-delay: 1s;
+    visibility: hidden;
+}
+
+
+.cirles img:nth-child(3){
+    animation-delay: 3s;
+    width: 14px;
+}
+
+.cirles img:nth-child(4){
+    animation-delay: 4.5s;
+    visibility: hidden;
+}
+
+.cirles img:nth-child(5){
+    animation-delay: 5s;
+    width: 14px;
+}
+
+.cirles img:nth-child(6){
+    animation-delay: 6s;
+    visibility: hidden;
+}
+
+.cirles img:nth-child(7){
+    animation-delay: 3s;
+    visibility: hidden;
+}
+
+.cirles img:nth-child(8){
+    animation-delay: 4.2s;
+    width: 14px;
+}
+
+@media(max-width:992px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .company img{
+        width: 400px;
+    }
+}
+
+@media(max-width:768px){
+    .company{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .company .comapnyInfo{
+        width: 80%;
+        margin: auto;
+    }
+
+    .comapnyInfo h1{
+        text-align: center;
+    }
+}
+
+@media(max-width:650px){
+    .comapnyInfo h1{
+        font-size: 45px;
+    }
+    .company img{
+        width: 300px;
+    }
+}
+
+@media(max-width:360px){
+    .comapnyInfo h1{
+        font-size: 35px;
+    }
+
+    .company p{
+        font-size: 17px;
+    }
+
+    .company img{
+        width: 250px;
+    }
+}

@@ -1,0 +1,18 @@
+html{
+  
+}
+
+@font-face{
+    src: url('./fonts/SofiaProBoldAz.otf');
+    font-family: 'Sofia-Pro Bold';
+}
+
+@font-face{
+    src: url('./fonts/SofiaProRegularAz.otf');
+    font-family: 'Sofia-Pro regular';
+}
+
+.App{
+  
+}
+

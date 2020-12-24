@@ -1,0 +1,116 @@
+
+.carousel{
+    width: 90%;
+    margin: auto;
+    background:  rgb(243, 122, 122);
+    display: flex;
+    flex: 7;
+    height: 100vh;
+    color: #fff;
+}
+
+.innerDiv{
+    background: url('https://res.cloudinary.com/oyindacodes/image/upload/v1605548726/Macbook_uzixe8.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel2{
+    background-color:rgb(214, 102, 102);
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv h1{
+    font-family: 'Sofia-Pro Bold';
+    font-size: 90px;
+    position: relative;
+    z-index: 100;
+}
+
+.lTlink{
+    font-family: 'Sofia-Pro regular';
+    font-size: 18px;
+    margin-top: -3em;
+    border-radius: 3px;
+    font-weight: bolder;
+    margin-bottom: 1em;
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #f4f7f6;
+    position: relative;
+    background: #fff;
+    color:rgb(214, 102, 102);
+}
+
+
+.mcBookImg{
+    opacity: 0.3;
+    width: 50%;
+}
+
+@media(max-width:1024px){
+    .innerDiv h1{
+        font-size: 70px;
+    }
+
+    .innerDiv button, .innerDiv p{
+        top: 1.5em;
+    }
+}
+
+@media(max-width:992px){
+    .carousel{
+        width: 100%;
+        height: 89vh;
+        margin: 0;
+    }
+
+    .innerDiv h1{
+        font-size: 50px;
+    }
+
+    .innerDiv a{
+        margin-top: 1em;
+    }
+}
+
+@media(max-width:500px){
+    .innerDiv h1{
+        font-size: 41px;
+        text-align: center;
+    }
+
+    .innerDiv button, .innerDiv p{
+        top: 2.8em;
+    }
+   .innerDiv a{
+    padding: .5em 2em;
+   }
+
+   .innerDiv p{
+       font-size: 18px;
+   }
+}
+
+@media(max-width:410px){
+    .innerDiv h1{
+     width: 100%;
+    }
+}

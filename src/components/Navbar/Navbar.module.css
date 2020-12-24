@@ -1,0 +1,112 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    z-index: 190;
+    background:rgb(243, 122, 122);
+}
+
+.closeBtn{
+    position: fixed;
+    top: 4%;
+    left: 93%;
+}
+
+.linkDiv{
+    font-family: 'Sofia-Pro regular';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90%;
+    justify-content: space-around;
+}
+
+.linkDiv div{
+    height: 14%;
+    width: 25%;
+    text-align: center;
+}
+
+.linkDiv div a{
+    font-family: 'Sofia-Pro regular';
+    font-size: 20px;
+    color:rgb(250, 201, 201);
+}
+
+.multiLinkDiv a{
+    font-family: 'Sofia-Pro regular';
+    display: block;
+    margin-bottom: 5px;
+}
+
+.links{
+    display: none;
+}
+
+.linkDiv div p{
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .closeBtn{
+        left: 85%;
+    }
+
+    .linkDiv{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 1em;
+    }
+
+    .links{
+        display: block;
+    }
+
+    .links a{
+        margin: 0 .6em;
+    }
+
+    .linkDiv div{
+        width: 100%;
+    }
+
+    .linkDiv div:nth-child(2){
+        position: relative;
+        top: -3em;
+    }
+
+    .linkDiv div:nth-child(3){
+        position: relative;
+        top: -3em;
+    }
+
+    .linkDiv div:nth-child(4){
+        position: relative;
+        top: -3em;
+    }
+
+    .linkDiv div:nth-child(5){
+        position: relative;
+        top: -3em;
+    }
+
+    .multiLinkDiv{
+        margin-top: -30px;
+    }
+
+    .multiLinkDiv a{
+        display: block;
+    }
+
+    .linkDiv div p{
+        margin-bottom: 0;
+    }
+
+}
+
+@media(max-width:360px){
+    .closeBtn{
+        left: 80%;
+    }
+}

@@ -1,0 +1,264 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    flex: 10;
+}
+
+.works{
+    font-family: 'Sofia-Pro regular';
+    background: rgb(214, 102, 102);
+    position: fixed;
+    height: 100%;
+    width: 6%;
+    display: flex;
+    flex: .5;
+    flex-direction: column;
+    align-items: center;
+}
+
+.works img{
+    margin: 20px 0 15em 0 ;
+}
+
+.works p{
+    font-family: 'Sofia-Pro regular';
+    font-weight: bold;
+}
+
+.para{
+    font-family: 'Sofia-Pro regular';
+    transform: rotate(90deg);
+    min-width: 160px;
+}
+
+.carousel{
+    background: rgb(243, 122, 122);
+    display: flex;
+    flex: 7;
+    height: 100vh;
+}
+
+.contact{
+    font-family: 'Sofia-Pro regular';
+    background:  rgb(214, 102, 102);
+    position: fixed;
+    left: 94%;
+    height: 100%;
+    flex: .5;
+}
+
+.innerDiv{
+    background: url('https://res.cloudinary.com/oyindacodes/image/upload/v1605548726/Macbook_uzixe8.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel2{
+    background-color:  rgb(214, 102, 102);
+    width: 70%;
+    height: 60%;
+    margin: auto;
+    margin-top: 7em;
+    margin-bottom: 7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerDiv h1{
+    font-family: 'Sofia-Pro Bold';
+    font-size: 90px;
+    font-weight: bolder;
+    position: relative;
+    z-index: 100;
+}
+
+.innerDiv h1 .text-wrapper{
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.innerDiv h1 .text-wrapper .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.innerDiv span{
+    display: inline;
+}
+
+.mcBookImg{
+    opacity: 0.3;
+    width: 50%;
+}
+
+.innerDiv2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.para2{
+    font-family: 'Sofia-Pro regular';
+    transform: rotate(90deg);
+    width: 100%;
+    padding: 0 15px;
+    margin-bottom: 10em;
+    font-weight: bolder;
+}
+
+.linkSmallScreen{
+    font-family: 'Sofia-Pro regular';
+    height: 50px;
+    background:rgb(243, 122, 122);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    display: none;
+}
+
+.linkSmallScreen img{
+    width: 50px;
+    margin-left: 40px;
+    position: relative;
+    top: 20px;
+}
+
+.hambuger{
+    width: 30px;
+    height:  25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 14.5em;
+}
+
+.hambuger2{
+    width: 30px;
+    height:  30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 14.5em;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+.hambuger2 div{
+    background: #fff;
+    color: #fff;
+    height: 3px;
+    width: 100%;
+    border-radius: 1px;
+}
+
+.hambuger2 div .thirdDiv{
+    width: 1px;
+}
+
+.hambuger div{
+    background: #fff;
+    color: #fff;
+    height: 4px;
+}
+
+
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links a{
+    margin-bottom: .3em;
+}
+
+.react-rotating-text-cursor {
+    animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite;
+  }
+
+  @keyframes blinking-cursor {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+@media(max-width:1024px){
+    .innerDiv h1{
+        font-size: 70px;
+    }
+}
+
+@media(max-width:992px){
+    .innerDiv h1{
+        font-size: 50px;
+    }
+
+    .works{
+        display: none;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .linkSmallScreen{
+        display: flex;
+    }
+
+    .innerDiv span{
+        display: block;
+    }
+
+}
+
+@media(max-width:768px){
+    .carousel{
+        height: 70vh;
+    }
+    .carousel2{
+        width: 85%;
+    }
+}
+
+@media(max-width:500px){
+    .innerDiv h1{
+        font-size: 41px;
+        text-align: center;
+    }
+}
+
+@media(max-width:410px){
+    .innerDiv h1{
+     width: 100%;
+    }
+}

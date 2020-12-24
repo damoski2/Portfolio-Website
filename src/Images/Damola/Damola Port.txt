@@ -1,0 +1,46 @@
+Young And Creative
+
+I'm Damola 
+I am comfortable writing modular code and thinking about how your work fits into the big picture, 
+and collaborating with our other engineers to provide solutions to technical problems.
+
+JavaScript 
+Development
+
+I enthusiastically approach everything from MongoDB, Express,
+ React, Node and Redox with the same level of respect and intention.
+
+Developing 
+Manager
+
+I partner with members of a cross-functional team and other stakeholders to set the direction of our product: 
+learn about our business problems and explore solutions
+
+Web
+Developer
+
+I contribute to the front-end development, optimization, 
+and infrastructure of web projects across our team
+
+DashMe
+Dash me is an app where you can giveaway things you don't need or would like to give,  
+Exchange goods and services without using a medium exchange, such as money. 
+and Sell items cheaply to friends.
+
+PC-Audio
+I looked forward to improving the audio recording system of my local church by developing a website where the members 
+can listen to the audio of recorded programmes online.
+
+They call me 
+"Rampion Dml"
+
+I work with a team of designers, developers and engineers with the focus of providing solutions to critical 
+technical problems across the country. 
+
+
+
+
+Data Target
+Data Target is a mobile and web application that helps to control
+the amount of data consumed on a daily basis.
+You set a target on the amount of data you wish to consume.

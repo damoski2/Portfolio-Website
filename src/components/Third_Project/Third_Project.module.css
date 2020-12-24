@@ -1,0 +1,121 @@
+.container{
+    width: 89%;
+    margin: auto;
+    padding: 2em 0;
+    background: rgb(243, 122, 122);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 71px;
+    margin-top: -2px;
+    color: rgb(255, 255, 255);
+}
+
+.proj{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 3em;
+}
+
+
+
+.ImageContainer img{
+    width: 340px;
+}
+
+
+.ImageContainer .img1{
+    z-index: 60;
+}
+.projectInfo{
+    width: 35%;
+    margin-top: 3em;
+}
+
+.projectInfo h1{
+    font-family: 'Sofia-Pro Bold';
+    margin-bottom: 0;
+    font-size: 60px;
+    width: 100%;
+}
+
+.projectInfo p{
+    font-family: 'Sofia-Pro regular';
+    line-height: 1.8;
+    font-weight: normal;
+    font-size: 22px;
+    margin-bottom: 1.9em;
+}
+
+.viewLink{
+    font-family: 'Sofia-Pro regular';
+    text-decoration: none;
+    background: #fff;
+    padding: .7em 2em;
+    color:rgb(214, 102, 102);
+    font-weight: bolder;
+    position: relative;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+@media(max-width:992px){
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media(max-width:768px){
+
+    .proj{
+        flex-direction: column;
+    }
+
+    .ImageContainer{
+        align-self: center;
+    }
+
+    .ImageContainer img{
+        width: 240px;
+        
+    }
+
+    .projectInfo{
+        align-items: flex-start;
+        width: 80%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .projectInfo h1{
+        margin: 5px 0;
+    }
+
+    .projectInfo p{
+        font-size: 19px;
+        line-height: 1.6;
+    }
+}
+
+@media(max-width: 650px){
+    .projectInfo h1{
+        font-size: 45px;
+    }
+}
+
+@media(max-width:360px){
+    .projectInfo h1{
+        font-size: 35px;
+    }
+
+    .ImageContainer img{
+        width: 200px;
+        align-self: center;
+    }
+
+}
